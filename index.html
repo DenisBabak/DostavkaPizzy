@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Доставка Пиццы</title>
+<meta name="description" content="Сайт для удобного просмотра и заказа пиццы на любой вкус" />
+<meta name="keywords" content="пиццы, доставка, вкус" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function () {
+    $("#slider").easySlider({
+        controlsBefore: '<p id="controls">',
+        controlsAfter: '</p>',
+        auto: true,
+        continuous: true
+    });
+});
+</script>
+<style type="text/css">
+.gallery{width:860px; height:250px; margin:0 auto; padding:0;}
+#slider{margin:0; padding:0; list-style:none;}
+#slider ul, #slider li{margin:0; padding:0; list-style:none;}
+#slider li{width:860px; height:250px; overflow:hidden;}
+p#controls{margin:0; padding:0; position:relative;}
+#prevBtn{display:block; margin:0; overflow:hidden; width:16px; height:26px; position:absolute; left:-40px; top:-150px;}
+#nextBtn{display:block; margin:0; overflow:hidden; width:16px; height:26px; position:absolute; left:880px; top:-150px;}
+#prevBtn a {display:block; width:16px; height:26px; background:url(images/l_arrow.png) no-repeat 0 0;} 
+#nextBtn a{display:block; width:16px; height:26px; background:url(images/r_arrow.png) no-repeat 0 0;}
+</style>
+</head>
+<body>
+<!-- Начало страницы -->
+<div class="main">
+  <div class="header">
+    <div class="block_header">
+<!-- Логотип -->
+      <div class="logo"><a href="index.html"><img src="images/logo.png" width="300" height="150" border="0" alt="" /></a></div>
+<!-- Поиск -->
+      <div class="search">
+      <form id="form1" name="form1" method="post" action="#">
+		<br /><font color="#FFFFFF"><b>Поиск по сайту</b></font><br /> 
+           <label><span>
+            <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="" />
+            </span>
+            <input name="b" type="image" src="images/search.png" class="button" />
+          </label>
+        </form>
+      </div>
+<!-- Конец поиск -->
+<!-- Меню -->
+      <div class="menu">
+        <ul>
+          <li><a href="index.html" class="active"><span>Главная</span></a></li>
+          <li><a href="about.html"><span>Ресторан</span></a></li>
+          <li><a href="services.html"><span>Доставка</span></a></li>
+          <li><a href="portfolio.html"><span>Пиццы</span></a></li>
+          <li><a href="contact.html"><span>Контакты</span></a></li>
+        </ul>
+        <div class="clr"></div>                                                                                                                                                                                                                                                                  
+      </div>
+<!-- Конец Меню -->
+      <div class="clr"></div>
+    </div>
+  </div>
+<!-- Слайдер -->
+  <div class="slider_top">
+    <div class="header_text">
+      <div class="gallery">
+        <div id="slider">
+          <ul>
+            <li>
+              <div class="div">
+                <div class="left1">
+                  <h2>Пицца "Маргарита"</h2>
+                  <p><b>Пицца Маргарита</b> — традиционная итальянская пицца, пожалуй, самая популярная в мире, даже меню любой пиццерии начинается, как правило, именно с неё.</p>
+                  <p>Cостав:<br>cыр моцарелла, спелые помидоры, листья свежего базилика, красный соус.</p>                 
+                  <p><a href="portfolio.html"><img src="images/prosmotr1.png" alt="" width="101" height="26" border="0" /></a></p>
+                </div>
+                <img src="images/1big.jpg" alt="" width="420" height="240" border="0" class="screen"  /> </div>
+            </li>
+            <li>
+              <div class="div">
+                <div class="left1">
+                  <h2>Пицца "Четыре Сыра"</h2>
+                  <p><b>Пицца Четыре Сыра</b> — это идеальное сочетание идеальных сыров Моцарелла, Дор-Блю, Чеддер и Эмменталь.</p>
+                  <p>Cостав:<br>cыр моцарелла, сыр дор-блю, сыр чеддер, сыр эмменталь, грибы, белый соус.</p>      
+                   <p><a href="portfolio.html"><img src="images/prosmotr1.png" alt="" width="101" height="26" border="0" /></a></p>
+                </div>
+                <img src="images/2big.jpg" alt="" width="420" height="240" border="0" class="screen"  /> </div>
+            </li>
+            <li>
+              <div class="div">
+                <div class="left1">
+                  <h2>Пицца "Коза Ностра"</h2>
+             		<p><b>Пицца Коза Ностра</b> — по праву является одним из самых широко распространенных блюд во всем мире.</p>
+                  	<p>Cостав:<br>cыр моцарелла, бекон, сыр пармезан, салями, ветчина, помидоры, базилик, грибы, красный соус.</p><br>   
+                  <p><a href="portfolio.html"><img src="images/prosmotr1.png" alt="" width="101" height="26" border="0" /></a></p>
+                </div>
+                <img src="images/3big.jpg" alt="" width="420" height="240" border="0" class="screen"  /> </div>
+            </li>
+          </ul>
+          <div class="clr"></div>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+<!-- Конец слайдер -->
+<br></br>
+  <div class="clr"></div>
+<!-- Контент главной -->
+  <div class="body">
+    <div class="body_resize">
+      <div class="left">
+        <h4>Новости ресторана</h4>
+        <h2>Скидки на пиццу! (19.05.2019)</h2>
+        <img src="images/skidka.png" alt="Скидки" />
+        <p><strong>Скидки, скидки, скидки!</strong> <br />
+        В связи со скорым наступлением лета, мы решили понизить цены на <b>ВСЕ</b> наши товары. Да, вы все правильно прочитали: наш ресторан предлагает коллосальные скидки на пиццы и напитки. Скидки от 30-50% до конца следующей недели (26.05.2019). Так что, поспешите! Будем очень рады вас видеть в стенах нашего скромного заведения!
+        <h2>Платите картой! (02.05.2019)<br />
+          <span></span></h2>
+        <img src="images/karta.png" alt="Карта" />
+        <p><strong>Оплата банковской картой</strong><br />
+        	Обрадуем клиентов, которые долго ждали данной функции: мы начали принимать оплату картой! Теперь вам не нужно выискивать недостающую гривну в массивных карманах вашего пальто. Достаточно лишь подойти к барной стойке и провести банковской картой по терменалу (Также можно воспользоваться ApplePay или AndroidPay). Если у вас возникнут какие-либо затруднения с оплатой, то наши сотрудники будут очень рады помочь.
+        	 <h2>Мы переехали (11.04.2019)<br />
+          <span></span></h2>
+        <img src="images/moved.png" alt="Переезд" />
+        <p><strong>Новое место!</strong><br />
+        	Наш основной ресторан на улице Дарвина закрылся... <b>НО!</b> Мы не прекращаем нашу работу и никуда не пропадаем. Единственное, что может огорчить наших клиентов - мы передисло- цировались на проспект Гагарина.
+        	Ищите нас неподолеку от выхода из станции метро. Если вы уже бывали у нас ранее, то без проблем наткнетесь на нужный вам ресторан.
+      </div>
+      
+<!--- Правый блок --->
+      <div class="right">
+        <h2>Комментарии о доставке<br />
+          <span> Последние 7 дней:</span></h2>
+        <p><strong>Отлично! [5/5 баллов]</strong><br />
+          Курьер принес пиццу вовремя, несмотря на то, что я живу довольно таки далеко от ближайшего ко мне ресторана. Сама же пицца была еще горячей и, к тому же, очень вкусной. Благодарю! Определенно не последний мой заказ.<br />
+          <em><span> 22.05.2019</span></em> - <a href="#">Андрей Булгаков</a></p>
+        <p><strong>Хорошо! [4/5 баллов]</strong><br />
+          Пиццу доставили вовремя, все хорошо. Однако, при оплате произошел маленький казус: у курьера не было сдачи с 200 гривен, не смотря на то, что в телефонном разгворе я четко отметила, что мне потребуется сдача. Пришлось одать целую купюру, переплатив 30 гривен. Теперь вы мне должны! :)<br />
+          <em><span> 21.05.2019</span></em> - <a href="#">Юлия Ивлева</a><br />
+          <p><strong>Отлично! [5/5 баллов]</strong><br />
+          Ровно спустя 15 минут после того, как я заказала пиццу, ко мне явился курьер с двумя большими коробками из-под пицц. Не знаю, дело в том, что я живу относительно близко к ресторану, либо в прыткости ваших рабочих, но в итоге результатом я довольна. Спасибо!<br />
+          <em><span> 21.05.2019</span></em> - <a href="#">Валерия Котова</a><br />
+          <p><strong>Отлично! [5/5 баллов]</strong><br />
+          Делали большой заказ к дню рождения сына. Ребята из службы доставки мало того, что понимающие, так еще и быстрые! Принесли пиццы горячие, а самое главное - вкусные! Сыну очень понравилось. Будем заказывать еще :)<br />
+          <em><span> 20.05.2019</span></em> - <a href="#">Розалинда Смирнова</a><br />
+          <br />
+        </p>
+     
+      </div>
+<!--- Коней правый блок --->
+
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+<!-- Конец контент главной -->
+<!-- Подвал -->
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="leftt">DostavkaPizzy.com &copy; 2019 <a href="#"></a></p>
+
+      <div class="clr"></div>
+    </div>
+  </div>                              
+</div>
+<!-- Конец -->
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                       
+
+
